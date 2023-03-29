@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+body{
+    background-color: #101010;
+
+    color: #fff;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* estilo cabecalho */
+
+header{
+    text-align: center;
+}
+
+h1 img{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    padding: 0 0 80px 0;
+}
+
+.tab{
+    padding: 0;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.tab button{
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 35px;
+}
+
+.tab button:hover{
+    background-color: #e62429;
+    border-radius: 20px 0px 20px 0px;
+    transform: scale(1.2); 
+}
+
+/* fim estilo cabecalho */
+
+/* estilo conteudo */
+
+.content{
+    display: none;
+    padding: 0px 150px;
+    flex-direction: column;
+}
+
+.content img{
+    width: 260px;
+    height: 260px;
+}
+
+.title h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 65px;
+    text-align: center;
+}
+
+article{
+    text-align: center;
+    display: flex;
+}
+
+article p{
+    text-align: justify;
+    padding: 0px 60px
+}
+
+/* fim estilo conteudo */
